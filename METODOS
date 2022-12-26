@@ -1,0 +1,22 @@
+
+
+public class ALUMNO {
+
+    int id;
+    String nombre ;
+     String apellido ; 
+     
+     public void mostrarNombre(){
+         System.out.println("Hola, soy un alumno y se decir mi nombre");
+     }
+     
+     public void  saberAprobado(double calificacion){
+         if (calificacion >=6){
+             System.out.println("Aprobe la materia");
+         }
+         else {
+             System.out.println("Uyy no aprobe");
+         }
+
+     }
+}
